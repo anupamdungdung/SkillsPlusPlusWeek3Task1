@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../public/style.css" rel="stylesheet">
+    <title>Movie Catalogue</title>
+</head>
+<body class="bg-gray-800 h-full">
+    <header class="text-gray-600 body-font bg-white mb-4 shadow-lg ">
+        <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center justify-center">
+          <!-- <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a class="mr-5 hover:text-gray-900">First Link</a>
+            <a class="mr-5 hover:text-gray-900">Second Link</a>
+            <a class="mr-5 hover:text-gray-900">Third Link</a>
+            <a class="hover:text-gray-900">Fourth Link</a>
+          </nav> -->
+          <a class="flex  lg:order-none  title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 " href="../public/index.html">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+            <span class="ml-3 text-3xl heading" >MovieBase</span>
+          </a>
+        </div>
+      </header>    
+    
+        <div class="flex mx-auto justify-center ">
+            <form class="flex justify-between" id="form">
+              <input class="rounded-md ml-2 p-4 border text-gray-800 border-gray-100 bg-white w-full" placeholder="Search A Movie" size="50" id="search"></input>
+              <button class="bg-white ml-2 rounded-lg text-lg p-2 text-gray-800 hover:bg-red-700 hover:text-white "><span>SEARCH</span></p></button>
+              <button class="bg-white ml-2 rounded-lg p-2 text-lg hover:bg-red-700 hover:text-white mr-2" type="button" id="clear">
+                <span>CLEAR</span>  
+              </button>
+                        
+          </form>
+        </div>
+    
+    <div class="flex justify-center flex-wrap" id="main">       
+        </div>
+        
+    </div>
+    <footer class="text-gray-600 body-font">
+        
+        <div class="bg-gray-100">
+        
+          <div class="container mx-auto py-4 px-4 flex flex-wrap flex-col sm:flex-row justify-between mb-2">
+            <div class="flex flex-wrap">
+              <p>Contact Me:</p>&nbsp;
+              <p>anupam-d2@live.com</p>
+            </div>
+            <div class="flex flex-wrap">
+              <p class="text-gray-500 text-md text-center sm:text-left flex">This product uses the TMDb API but is not endorsed or certified by TMDb.
+                   
+              </p>
+              <a href="https://www.themoviedb.org/" target="_blank"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" width="200px" class="ml-2 mt-1">   </a>
+            </div>
+            
+            
+            
+          </div>
+        </div>
+      </footer>
+        
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../public/index.js"></script>
+</body>
+</html>
